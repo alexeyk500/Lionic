@@ -20,6 +20,11 @@ html {
   font-family: sans-serif;
 }
 
+.text-center {
+  text-align: center;
+}
+
+/* Header */
 .header {
   height: 110px;
 }
@@ -33,6 +38,7 @@ html {
 }
 
 .btn {
+  display: inline-block;
   padding: 15px 16px;
   font-size: 12px;
   line-height: 1;
@@ -63,4 +69,160 @@ html {
 
 .header-btn {
   margin-left: 80px;
+}
+
+/* Hero */
+.hero-container {
+  padding-top: 120px;
+  padding-bottom: 130px;
+}
+.hero-content {
+  max-width: 50%;
+}
+
+.section-hero-heading {
+  margin-bottom: 20px;
+}
+
+.section-hero-description {
+  margin-bottom: 30px;
+}
+
+.section-hero-btn-description {
+  margin-top: 10px;
+}
+
+/* What We Do */
+.section-do {
+  margin-top: 225px;
+  margin-bottom: 200px;
+}
+
+.section-description {
+  margin-top: 35px;
+}
+
+.section-do-list {
+  display: flex;
+  margin-top: 35px;
+}
+
+.section-do-item {
+  flex: 1 1 25%;
+  outline: 3px solid blue;
+}
+
+.section-do-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* Our Happy Clients */
+.clients {
+  padding-top: 100px;
+  padding-bottom: 160px;
+}
+
+.section-heading {
+  margin-bottom: 43px;
+}
+
+.section-clients-list {
+  display: flex;
+}
+
+.section-clients-item {
+  flex: 1 1 33.33%;
+}
+
+.section-clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-clients-user{
+  display: flex;
+  align-items: center;
+}
+
+.section-clients-avatar {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border: 2px solid #3f7bbe;
+  border-radius: 50%;
+}
+
+/* Сontacts */
+.section-contacts {
+  padding-top: 70px;
+  padding-bottom: 170px;
+}
+
+.section-contacts-list {
+  display: flex;
+  padding-top: 120px;
+}
+
+.section-contacts-item {
+  flex: 1 1 33.33%;
+}
+
+.section-contacts-info {
+  max-width: 250px;
+}
+
+.section-contacts-icon {
+  display: block;
+  height: 26px;
+  margin-bottom: 25px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: auto 100%;
+  background-color: transparent;
+}
+
+.section-contacts-icon-gps {
+  background-image: url('/img/gps.png');
+  background-size: auto 22px;
+}
+
+.section-contacts-icon-phone {
+  background-image: url('/img/phone.png');
+}
+
+.section-contacts-icon-mail {
+  background-image: url('/img/mail.png');
+  background-size: auto 19px;
+}
+
+.section-contacts-heading {
+  display: block;
+  margin-bottom: 40px;
+}
+
+/* Footer */
+.footer {
+  height: 125px;
+}
+
+.container-footer {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  margin-right: 25px;
+}
+
+.footer-nav-list{
+  display: flex;
+}
+
+.footer-nav-item:not(:last-child) {
+  margin-right: 35px;
 }
