@@ -216,18 +216,21 @@ body {
 /* What We Do */
 .section-do {
   margin-top: 225px;
-  padding-bottom: 200px;
+  padding-bottom: 170px;
   border-bottom: 1px solid #dadada;
 }
 
 .section-do-list {
-  display: flex;
   margin-top: 55px;
 }
 
-.section-do-item {
-  flex: 1 1 25%;
+.section-do-item-column {
   display: flex;
+}
+
+.section-do-item {
+  display: flex;
+  margin-bottom: 30px;
   flex-direction: column;
   padding: 60px 30px;
   align-items: center;
@@ -270,10 +273,6 @@ body {
   transition: color 0.3s ease;
 }
 
-.section-do-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .section-do-heading {
   margin-bottom: 20px;
   font-size: 20px;
@@ -298,7 +297,7 @@ body {
   margin-bottom: 45px;
 }
 
-.section-clients-list {
+.section-clients-column {
   display: flex;
 }
 
@@ -306,14 +305,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex: 1 1 33.33%;
   padding: 55px 35px 30px 35px;
   border: 1px solid #d2d2d2;
   border-radius: 5px;
-}
-
-.section-clients-item:not(:last-child) {
-  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .section-clients-testimonial {
@@ -356,7 +351,7 @@ body {
 /* Сontacts */
 .section-contacts {
   padding-top: 70px;
-  padding-bottom: 170px;
+  padding-bottom: 140px;
   border-bottom: 1px solid #dadada;
 }
 
@@ -369,12 +364,12 @@ body {
   color: #414141;
 }
 
-.section-contacts-list {
+.section-contacts-column {
   display: flex;
 }
 
 .section-contacts-item {
-  flex: 1 1 33.33%;
+  margin-bottom: 30px;
 }
 
 .section-contacts-info {
